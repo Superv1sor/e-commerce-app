@@ -1,0 +1,27 @@
+﻿$ mkdir <projectname>
+$ cd <projectname>
+$ npx create-react-app client
+
+$ code .
+
+
+$ mkdir server
+$ cd server
+$ npm init -y
+// install dependencies
+$ npm i express cors
+// install development dependencies
+$ npm i nodemon
+
+// github
+in <proejctname>:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Superv1sor/e-commerce-app.git
+git push -u origin main
+
+// in "server" add file .gitignore with:
+.env
+node_modules
